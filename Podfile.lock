@@ -1,0 +1,24 @@
+PODS:
+  - Cosmos (23.0.0)
+  - lottie-ios (3.2.3)
+  - SkeletonView (1.17.2)
+
+DEPENDENCIES:
+  - Cosmos
+  - lottie-ios
+  - SkeletonView
+
+SPEC REPOS:
+  trunk:
+    - Cosmos
+    - lottie-ios
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  SkeletonView: 7aba21d10df8d0530189379ebe02e02a192d8132
+
+PODFILE CHECKSUM: b01deb31bf9eef9d2fd9c5eee21b3f5335016b63
+
+COCOAPODS: 1.10.1

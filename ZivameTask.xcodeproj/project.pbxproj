@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3B4ADE2776C68800D719A9 /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B4ADD2776C68800D719A9 /* Extension+ViewController.swift */; };
+		3F529B602774A2FC0070C15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F529B5F2774A2FC0070C15A /* AppDelegate.swift */; };
+		3F529B672774A2FC0070C15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F529B652774A2FC0070C15A /* Main.storyboard */; };
+		3F529B6A2774A2FC0070C15A /* ZivameTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F529B682774A2FC0070C15A /* ZivameTask.xcdatamodeld */; };
+		3F529B6C2774A3080070C15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F529B6B2774A3080070C15A /* Assets.xcassets */; };
+		3F529B6F2774A3080070C15A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F529B6D2774A3080070C15A /* LaunchScreen.storyboard */; };
+		3F529B7A2774A3090070C15A /* ZivameTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F529B792774A3090070C15A /* ZivameTaskTests.swift */; };
+		3F529B852774A3090070C15A /* ZivameTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F529B842774A3090070C15A /* ZivameTaskUITests.swift */; };
+		3F529B9E2774A6DC0070C15A /* ProductsDataModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F529B9D2774A6DC0070C15A /* ProductsDataModal.swift */; };
+		3F529BA82774A7270070C15A /* ProductsViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F529BA72774A7270070C15A /* ProductsViewModal.swift */; };
+		3F529BB12774A74A0070C15A /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F529BB02774A74A0070C15A /* ProductsVC.swift */; };
+		3F529BB62774A7600070C15A /* ProductsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F529BB52774A7600070C15A /* ProductsTableCell.swift */; };
+		3F529BD8277589770070C15A /* Extension+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F529BD6277589770070C15A /* Extension+Image.swift */; };
+		3F529BD9277589770070C15A /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F529BD7277589770070C15A /* Extension+UIView.swift */; };
+		3F529BE72775EF780070C15A /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F529BE62775EF780070C15A /* CartVC.swift */; };
+		3F60C8B9277604C70038DE2A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F60C8B8277604C70038DE2A /* Service.swift */; };
+		3FB38A3C277731C90025E27D /* ProductEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB38A3A277731C90025E27D /* ProductEntity+CoreDataClass.swift */; };
+		3FB38A3D277731C90025E27D /* ProductEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB38A3B277731C90025E27D /* ProductEntity+CoreDataProperties.swift */; };
+		3FB38A4C27773BB10025E27D /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB38A4B27773BB10025E27D /* CheckoutVC.swift */; };
+		3FB38A60277741820025E27D /* OrderPlacedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB38A5F277741820025E27D /* OrderPlacedVC.swift */; };
+		3FB38A6C27774D6A0025E27D /* loader.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3FB38A6A27774D690025E27D /* loader.mp4 */; };
+		3FB38A6D27774D6A0025E27D /* success.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3FB38A6B27774D6A0025E27D /* success.mp4 */; };
+		8E05DF47EE0307B9CBDCD5DF /* Pods_ZivameTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BA75DE088F97F5D7DCD84B /* Pods_ZivameTask.framework */; };
+		B6AD9DCE58C29E28041A214D /* Pods_ZivameTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBCA07EE84FFCB68B5D4EFD /* Pods_ZivameTaskTests.framework */; };
+		CB66D5561B4DD1165EEFA2FA /* Pods_ZivameTask_ZivameTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CABEE7DBD9DCBFA6559FD4 /* Pods_ZivameTask_ZivameTaskUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F529B762774A3090070C15A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F529B542774A2FB0070C15A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F529B5B2774A2FC0070C15A;
+			remoteInfo = ZivameTask;
+		};
+		3F529B812774A3090070C15A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F529B542774A2FB0070C15A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F529B5B2774A2FC0070C15A;
+			remoteInfo = ZivameTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F3B4ADD2776C68800D719A9 /* Extension+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ViewController.swift"; sourceTree = "<group>"; };
+		3F529B5C2774A2FC0070C15A /* ZivameTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZivameTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F529B5F2774A2FC0070C15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F529B662774A2FC0070C15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F529B692774A2FC0070C15A /* ZivameTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZivameTask.xcdatamodel; sourceTree = "<group>"; };
+		3F529B6B2774A3080070C15A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F529B6E2774A3080070C15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F529B702774A3080070C15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F529B752774A3090070C15A /* ZivameTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZivameTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F529B792774A3090070C15A /* ZivameTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZivameTaskTests.swift; sourceTree = "<group>"; };
+		3F529B7B2774A3090070C15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F529B802774A3090070C15A /* ZivameTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZivameTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F529B842774A3090070C15A /* ZivameTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZivameTaskUITests.swift; sourceTree = "<group>"; };
+		3F529B862774A3090070C15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F529B9D2774A6DC0070C15A /* ProductsDataModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsDataModal.swift; sourceTree = "<group>"; };
+		3F529BA72774A7270070C15A /* ProductsViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModal.swift; sourceTree = "<group>"; };
+		3F529BB02774A74A0070C15A /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		3F529BB52774A7600070C15A /* ProductsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableCell.swift; sourceTree = "<group>"; };
+		3F529BD6277589770070C15A /* Extension+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Image.swift"; sourceTree = "<group>"; };
+		3F529BD7277589770070C15A /* Extension+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		3F529BE62775EF780070C15A /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		3F60C8B8277604C70038DE2A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		3FB38A3A277731C90025E27D /* ProductEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ProductEntity+CoreDataClass.swift"; path = "ZivameTask/CoreData/Modal/ProductEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		3FB38A3B277731C90025E27D /* ProductEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ProductEntity+CoreDataProperties.swift"; path = "ZivameTask/CoreData/Modal/ProductEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		3FB38A4B27773BB10025E27D /* CheckoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
+		3FB38A5F277741820025E27D /* OrderPlacedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPlacedVC.swift; sourceTree = "<group>"; };
+		3FB38A6A27774D690025E27D /* loader.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loader.mp4; sourceTree = "<group>"; };
+		3FB38A6B27774D6A0025E27D /* success.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.mp4; sourceTree = "<group>"; };
+		56E746FF583F9C188F1EF6D8 /* Pods-ZivameTask-ZivameTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZivameTask-ZivameTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-ZivameTask-ZivameTaskUITests/Pods-ZivameTask-ZivameTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5AFED4FE7477984A2094482A /* Pods-ZivameTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZivameTask.debug.xcconfig"; path = "Target Support Files/Pods-ZivameTask/Pods-ZivameTask.debug.xcconfig"; sourceTree = "<group>"; };
+		70CABEE7DBD9DCBFA6559FD4 /* Pods_ZivameTask_ZivameTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZivameTask_ZivameTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4823706B353D313A651EAA /* Pods-ZivameTask-ZivameTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZivameTask-ZivameTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZivameTask-ZivameTaskUITests/Pods-ZivameTask-ZivameTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92393706E983F81CD4C1FA33 /* Pods-ZivameTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZivameTask.release.xcconfig"; path = "Target Support Files/Pods-ZivameTask/Pods-ZivameTask.release.xcconfig"; sourceTree = "<group>"; };
+		9FBB903AE998D17E5C141767 /* Pods-ZivameTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZivameTaskTests.release.xcconfig"; path = "Target Support Files/Pods-ZivameTaskTests/Pods-ZivameTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5BA75DE088F97F5D7DCD84B /* Pods_ZivameTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZivameTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83DB4E203ADD513A6C29437 /* Pods-ZivameTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZivameTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-ZivameTaskTests/Pods-ZivameTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCBCA07EE84FFCB68B5D4EFD /* Pods_ZivameTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZivameTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F529B592774A2FC0070C15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E05DF47EE0307B9CBDCD5DF /* Pods_ZivameTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F529B722774A3090070C15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AD9DCE58C29E28041A214D /* Pods_ZivameTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F529B7D2774A3090070C15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB66D5561B4DD1165EEFA2FA /* Pods_ZivameTask_ZivameTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F529B532774A2FB0070C15A = {
+			isa = PBXGroup;
+			children = (
+				3F529B5E2774A2FC0070C15A /* ZivameTask */,
+				3F529B782774A3090070C15A /* ZivameTaskTests */,
+				3F529B832774A3090070C15A /* ZivameTaskUITests */,
+				3F529B5D2774A2FC0070C15A /* Products */,
+				707098A831E800CE98EB75AB /* Pods */,
+				6026F9556420157D5918725A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F529B5D2774A2FC0070C15A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F529B5C2774A2FC0070C15A /* ZivameTask.app */,
+				3F529B752774A3090070C15A /* ZivameTaskTests.xctest */,
+				3F529B802774A3090070C15A /* ZivameTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F529B5E2774A2FC0070C15A /* ZivameTask */ = {
+			isa = PBXGroup;
+			children = (
+				3FB38A5027773FEA0025E27D /* SourceFiles */,
+				3F60C8B7277604B50038DE2A /* Service */,
+				3F529BBA2774A7710070C15A /* Delegate */,
+				3F529BD5277589770070C15A /* Extensions */,
+				3F529B982774A6B80070C15A /* ProductsVC */,
+				3F529BBE2774AD6F0070C15A /* CartVC */,
+				3F529BBF2774AD770070C15A /* CheckoutVC */,
+				3F529BC02774AD870070C15A /* OrderPlacedVC */,
+				3F529B652774A2FC0070C15A /* Main.storyboard */,
+				3F529B6B2774A3080070C15A /* Assets.xcassets */,
+				3F529B6D2774A3080070C15A /* LaunchScreen.storyboard */,
+				3FE157E727764CBE00C07298 /* CoreData */,
+				3F529B702774A3080070C15A /* Info.plist */,
+			);
+			path = ZivameTask;
+			sourceTree = "<group>";
+		};
+		3F529B782774A3090070C15A /* ZivameTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F529B792774A3090070C15A /* ZivameTaskTests.swift */,
+				3F529B7B2774A3090070C15A /* Info.plist */,
+			);
+			path = ZivameTaskTests;
+			sourceTree = "<group>";
+		};
+		3F529B832774A3090070C15A /* ZivameTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F529B842774A3090070C15A /* ZivameTaskUITests.swift */,
+				3F529B862774A3090070C15A /* Info.plist */,
+			);
+			path = ZivameTaskUITests;
+			sourceTree = "<group>";
+		};
+		3F529B982774A6B80070C15A /* ProductsVC */ = {
+			isa = PBXGroup;
+			children = (
+				3F529BA52774A6F60070C15A /* Modal */,
+				3F529B9C2774A6C90070C15A /* View */,
+				3F529BA62774A70E0070C15A /* ViewModal */,
+			);
+			path = ProductsVC;
+			sourceTree = "<group>";
+		};
+		3F529B9C2774A6C90070C15A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F529BB02774A74A0070C15A /* ProductsVC.swift */,
+				3F529BB52774A7600070C15A /* ProductsTableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F529BA52774A6F60070C15A /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				3F529B9D2774A6DC0070C15A /* ProductsDataModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		3F529BA62774A70E0070C15A /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				3F529BA72774A7270070C15A /* ProductsViewModal.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		3F529BBA2774A7710070C15A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3F529B5F2774A2FC0070C15A /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		3F529BBE2774AD6F0070C15A /* CartVC */ = {
+			isa = PBXGroup;
+			children = (
+				3F529BE32775EF330070C15A /* View */,
+			);
+			path = CartVC;
+			sourceTree = "<group>";
+		};
+		3F529BBF2774AD770070C15A /* CheckoutVC */ = {
+			isa = PBXGroup;
+			children = (
+				3FB38A4B27773BB10025E27D /* CheckoutVC.swift */,
+			);
+			path = CheckoutVC;
+			sourceTree = "<group>";
+		};
+		3F529BC02774AD870070C15A /* OrderPlacedVC */ = {
+			isa = PBXGroup;
+			children = (
+				3FB38A5F277741820025E27D /* OrderPlacedVC.swift */,
+			);
+			path = OrderPlacedVC;
+			sourceTree = "<group>";
+		};
+		3F529BD5277589770070C15A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3F529BD6277589770070C15A /* Extension+Image.swift */,
+				3F529BD7277589770070C15A /* Extension+UIView.swift */,
+				3F3B4ADD2776C68800D719A9 /* Extension+ViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3F529BE32775EF330070C15A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F529BE62775EF780070C15A /* CartVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F60C8B7277604B50038DE2A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3F60C8B8277604C70038DE2A /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3FB38A4127773AE00025E27D /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				3FB38A3A277731C90025E27D /* ProductEntity+CoreDataClass.swift */,
+				3FB38A3B277731C90025E27D /* ProductEntity+CoreDataProperties.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		3FB38A5027773FEA0025E27D /* SourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3FB38A58277740000025E27D /* LottieFiles */,
+			);
+			path = SourceFiles;
+			sourceTree = "<group>";
+		};
+		3FB38A58277740000025E27D /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3FB38A6A27774D690025E27D /* loader.mp4 */,
+				3FB38A6B27774D6A0025E27D /* success.mp4 */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+		3FE157E727764CBE00C07298 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3FB38A4127773AE00025E27D /* Modal */,
+				3F529B682774A2FC0070C15A /* ZivameTask.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6026F9556420157D5918725A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5BA75DE088F97F5D7DCD84B /* Pods_ZivameTask.framework */,
+				70CABEE7DBD9DCBFA6559FD4 /* Pods_ZivameTask_ZivameTaskUITests.framework */,
+				FCBCA07EE84FFCB68B5D4EFD /* Pods_ZivameTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		707098A831E800CE98EB75AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AFED4FE7477984A2094482A /* Pods-ZivameTask.debug.xcconfig */,
+				92393706E983F81CD4C1FA33 /* Pods-ZivameTask.release.xcconfig */,
+				8D4823706B353D313A651EAA /* Pods-ZivameTask-ZivameTaskUITests.debug.xcconfig */,
+				56E746FF583F9C188F1EF6D8 /* Pods-ZivameTask-ZivameTaskUITests.release.xcconfig */,
+				D83DB4E203ADD513A6C29437 /* Pods-ZivameTaskTests.debug.xcconfig */,
+				9FBB903AE998D17E5C141767 /* Pods-ZivameTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F529B5B2774A2FC0070C15A /* ZivameTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F529B892774A3090070C15A /* Build configuration list for PBXNativeTarget "ZivameTask" */;
+			buildPhases = (
+				8E5AB9587FF090FEB4B8B3DF /* [CP] Check Pods Manifest.lock */,
+				3F529B582774A2FC0070C15A /* Sources */,
+				3F529B592774A2FC0070C15A /* Frameworks */,
+				3F529B5A2774A2FC0070C15A /* Resources */,
+				9A4A896D753499E93DB01926 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZivameTask;
+			productName = ZivameTask;
+			productReference = 3F529B5C2774A2FC0070C15A /* ZivameTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F529B742774A3090070C15A /* ZivameTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F529B8C2774A3090070C15A /* Build configuration list for PBXNativeTarget "ZivameTaskTests" */;
+			buildPhases = (
+				05C20483991F8B32B0ECA696 /* [CP] Check Pods Manifest.lock */,
+				3F529B712774A3090070C15A /* Sources */,
+				3F529B722774A3090070C15A /* Frameworks */,
+				3F529B732774A3090070C15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F529B772774A3090070C15A /* PBXTargetDependency */,
+			);
+			name = ZivameTaskTests;
+			productName = ZivameTaskTests;
+			productReference = 3F529B752774A3090070C15A /* ZivameTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F529B7F2774A3090070C15A /* ZivameTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F529B8F2774A3090070C15A /* Build configuration list for PBXNativeTarget "ZivameTaskUITests" */;
+			buildPhases = (
+				8C698E31AEF236EE718F9B22 /* [CP] Check Pods Manifest.lock */,
+				3F529B7C2774A3090070C15A /* Sources */,
+				3F529B7D2774A3090070C15A /* Frameworks */,
+				3F529B7E2774A3090070C15A /* Resources */,
+				2DA3859112937647AA7CE1C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F529B822774A3090070C15A /* PBXTargetDependency */,
+			);
+			name = ZivameTaskUITests;
+			productName = ZivameTaskUITests;
+			productReference = 3F529B802774A3090070C15A /* ZivameTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F529B542774A2FB0070C15A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3F529B5B2774A2FC0070C15A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3F529B742774A3090070C15A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3F529B5B2774A2FC0070C15A;
+					};
+					3F529B7F2774A3090070C15A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3F529B5B2774A2FC0070C15A;
+					};
+				};
+			};
+			buildConfigurationList = 3F529B572774A2FB0070C15A /* Build configuration list for PBXProject "ZivameTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F529B532774A2FB0070C15A;
+			productRefGroup = 3F529B5D2774A2FC0070C15A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F529B5B2774A2FC0070C15A /* ZivameTask */,
+				3F529B742774A3090070C15A /* ZivameTaskTests */,
+				3F529B7F2774A3090070C15A /* ZivameTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F529B5A2774A2FC0070C15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB38A6C27774D6A0025E27D /* loader.mp4 in Resources */,
+				3FB38A6D27774D6A0025E27D /* success.mp4 in Resources */,
+				3F529B6F2774A3080070C15A /* LaunchScreen.storyboard in Resources */,
+				3F529B6C2774A3080070C15A /* Assets.xcassets in Resources */,
+				3F529B672774A2FC0070C15A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F529B732774A3090070C15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F529B7E2774A3090070C15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05C20483991F8B32B0ECA696 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZivameTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DA3859112937647AA7CE1C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZivameTask-ZivameTaskUITests/Pods-ZivameTask-ZivameTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZivameTask-ZivameTaskUITests/Pods-ZivameTask-ZivameTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZivameTask-ZivameTaskUITests/Pods-ZivameTask-ZivameTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C698E31AEF236EE718F9B22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZivameTask-ZivameTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E5AB9587FF090FEB4B8B3DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZivameTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4A896D753499E93DB01926 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZivameTask/Pods-ZivameTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZivameTask/Pods-ZivameTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZivameTask/Pods-ZivameTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F529B582774A2FC0070C15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB38A4C27773BB10025E27D /* CheckoutVC.swift in Sources */,
+				3F529B602774A2FC0070C15A /* AppDelegate.swift in Sources */,
+				3F529BB62774A7600070C15A /* ProductsTableCell.swift in Sources */,
+				3FB38A3C277731C90025E27D /* ProductEntity+CoreDataClass.swift in Sources */,
+				3F529B9E2774A6DC0070C15A /* ProductsDataModal.swift in Sources */,
+				3F529BD8277589770070C15A /* Extension+Image.swift in Sources */,
+				3FB38A60277741820025E27D /* OrderPlacedVC.swift in Sources */,
+				3F3B4ADE2776C68800D719A9 /* Extension+ViewController.swift in Sources */,
+				3F529BB12774A74A0070C15A /* ProductsVC.swift in Sources */,
+				3FB38A3D277731C90025E27D /* ProductEntity+CoreDataProperties.swift in Sources */,
+				3F529BA82774A7270070C15A /* ProductsViewModal.swift in Sources */,
+				3F529B6A2774A2FC0070C15A /* ZivameTask.xcdatamodeld in Sources */,
+				3F60C8B9277604C70038DE2A /* Service.swift in Sources */,
+				3F529BE72775EF780070C15A /* CartVC.swift in Sources */,
+				3F529BD9277589770070C15A /* Extension+UIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F529B712774A3090070C15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F529B7A2774A3090070C15A /* ZivameTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F529B7C2774A3090070C15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F529B852774A3090070C15A /* ZivameTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F529B772774A3090070C15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F529B5B2774A2FC0070C15A /* ZivameTask */;
+			targetProxy = 3F529B762774A3090070C15A /* PBXContainerItemProxy */;
+		};
+		3F529B822774A3090070C15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F529B5B2774A2FC0070C15A /* ZivameTask */;
+			targetProxy = 3F529B812774A3090070C15A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F529B652774A2FC0070C15A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F529B662774A2FC0070C15A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F529B6D2774A3080070C15A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F529B6E2774A3080070C15A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F529B872774A3090070C15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F529B882774A3090070C15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F529B8A2774A3090070C15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFED4FE7477984A2094482A /* Pods-ZivameTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVCH54KQXQ;
+				INFOPLIST_FILE = ZivameTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raviteja.ZivameTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F529B8B2774A3090070C15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92393706E983F81CD4C1FA33 /* Pods-ZivameTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVCH54KQXQ;
+				INFOPLIST_FILE = ZivameTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raviteja.ZivameTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F529B8D2774A3090070C15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83DB4E203ADD513A6C29437 /* Pods-ZivameTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVCH54KQXQ;
+				INFOPLIST_FILE = ZivameTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raviteja.ZivameTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZivameTask.app/ZivameTask";
+			};
+			name = Debug;
+		};
+		3F529B8E2774A3090070C15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBB903AE998D17E5C141767 /* Pods-ZivameTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVCH54KQXQ;
+				INFOPLIST_FILE = ZivameTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raviteja.ZivameTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZivameTask.app/ZivameTask";
+			};
+			name = Release;
+		};
+		3F529B902774A3090070C15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4823706B353D313A651EAA /* Pods-ZivameTask-ZivameTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVCH54KQXQ;
+				INFOPLIST_FILE = ZivameTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raviteja.ZivameTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZivameTask;
+			};
+			name = Debug;
+		};
+		3F529B912774A3090070C15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E746FF583F9C188F1EF6D8 /* Pods-ZivameTask-ZivameTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVCH54KQXQ;
+				INFOPLIST_FILE = ZivameTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raviteja.ZivameTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZivameTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F529B572774A2FB0070C15A /* Build configuration list for PBXProject "ZivameTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F529B872774A3090070C15A /* Debug */,
+				3F529B882774A3090070C15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F529B892774A3090070C15A /* Build configuration list for PBXNativeTarget "ZivameTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F529B8A2774A3090070C15A /* Debug */,
+				3F529B8B2774A3090070C15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F529B8C2774A3090070C15A /* Build configuration list for PBXNativeTarget "ZivameTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F529B8D2774A3090070C15A /* Debug */,
+				3F529B8E2774A3090070C15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F529B8F2774A3090070C15A /* Build configuration list for PBXNativeTarget "ZivameTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F529B902774A3090070C15A /* Debug */,
+				3F529B912774A3090070C15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F529B682774A2FC0070C15A /* ZivameTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F529B692774A2FC0070C15A /* ZivameTask.xcdatamodel */,
+			);
+			currentVersion = 3F529B692774A2FC0070C15A /* ZivameTask.xcdatamodel */;
+			path = ZivameTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F529B542774A2FB0070C15A /* Project object */;
+}
